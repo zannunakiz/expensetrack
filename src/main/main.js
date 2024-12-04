@@ -23,7 +23,7 @@ function Main() {
 
         setTotalExpense(expense)
         setTotalIncome(income)
-    }, [allTransactions])
+    }, [allTransactions, setTotalExpense, setTotalIncome])
 
 
     return (
